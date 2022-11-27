@@ -1,0 +1,19 @@
+<script type=module>
+import { bg,  show } from"https://js.sabae.cc/egadv.js"
+await bg (172);
+const a = await show("このお城は何県にあるでしょう",["福井","岡山","兵庫"]);
+if (a=="岡山"){
+await show ("正解?");
+} else 
+if (a=="福井"){
+await show("違うかも");
+} else 
+if (a=="兵庫"){
+await show("違うかも");
+}
+
+await show("岡山かも");
+
+
+
+</script>
